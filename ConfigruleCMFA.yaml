@@ -33,7 +33,7 @@ dns:
     - 112.215.203.254
 proxies:
   - name: AKUN1
-    server: ava.game.naver.com
+    server: app-stg.gopay.co.id
     port: 80
     type: vless
     uuid: 248e98dc-0dc7-422a-b238-26f762e44925
@@ -167,3 +167,4 @@ rule-providers:
     type: file
     behavior: domain
     path: ./block.yaml  
+
