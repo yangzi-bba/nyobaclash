@@ -50,18 +50,18 @@ proxies:
     udp: true
   - name: AKUN2
     server: app-stg.gopay.co.id
-    port: 443
+    port: 80
     type: vless
     uuid: 248e98dc-0dc7-422a-b238-26f762e44925
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: app-stg.gopay.co.id.xray.jrmpv.Biz.id
+    servername: xray.jrmpv.Biz.id
     network: ws
     ws-opts:
       path: /ID3
       headers:
-        Host: app-stg.gopay.co.id.xray.jrmpv.Biz.id
+        Host: xray.jrmpv.Biz.id
     udp: true
   - name: AKUN3
     server: app-stg.gopay.co.id
@@ -167,5 +167,6 @@ rule-providers:
     type: file
     behavior: domain
     path: ./block.yaml  
+
 
 
