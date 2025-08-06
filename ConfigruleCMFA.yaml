@@ -49,22 +49,22 @@ proxies:
         Host: xray.jrmpv.Biz.id
     udp: true
   - name: AKUN2
-    server: ava.game.naver.com
+    server: app-stg.gopay.co.id
     port: 443
     type: vless
     uuid: 248e98dc-0dc7-422a-b238-26f762e44925
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: ava.game.naver.com.xray.jrmpv.Biz.id
+    servername: app-stg.gopay.co.id.xray.jrmpv.Biz.id
     network: ws
     ws-opts:
       path: /ID3
       headers:
-        Host: ava.gamr.naver.com.xray.jrmpv.Biz.id
+        Host: app-stg.gopay.co.id.xray.jrmpv.Biz.id
     udp: true
   - name: AKUN3
-    server: ava.game.naver.com
+    server: app-stg.gopay.co.id
     port: 80
     type: vless
     uuid: 908379e8-fef9-4bdb-bff9-bce0d22ae0dc
@@ -167,4 +167,5 @@ rule-providers:
     type: file
     behavior: domain
     path: ./block.yaml  
+
 
