@@ -33,7 +33,7 @@ dns:
     - 112.215.203.254
 proxies:
   - name: AKUN1
-    server: investors.spotify.com
+    server: quiz.int.vidio.com
     port: 80
     type: vless
     uuid: 248e98dc-0dc7-422a-b238-26f762e44925
@@ -49,7 +49,7 @@ proxies:
         Host: xray.jrmpv.Biz.id
     udp: true
   - name: AKUN2
-    server: investors.spotify.com
+    server: quiz.int.vidio.com
     port: 80
     type: vless
     uuid: 248e98dc-0dc7-422a-b238-26f762e44925
@@ -64,7 +64,7 @@ proxies:
         Host: xray.jrmpv.Biz.id
     udp: true
   - name: AKUN3
-    server: investors.spotify.com
+    server: quiz.int.vidio.com
     port: 80
     type: vless
     uuid: 908379e8-fef9-4bdb-bff9-bce0d22ae0dc
@@ -167,6 +167,7 @@ rule-providers:
     type: file
     behavior: domain
     path: ./block.yaml  
+
 
 
 
